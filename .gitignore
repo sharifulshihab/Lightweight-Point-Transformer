@@ -221,3 +221,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Machine Learning model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Datasets
+data/
+datasets/
+
+# Experiment outputs
+runs/
+outputs/
+
+# Training and evaluation logs
+*.log
+tensorboard/
